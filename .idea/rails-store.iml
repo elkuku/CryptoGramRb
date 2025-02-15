@@ -485,6 +485,41 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="bcrypt (v3.1.20) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="N/A" />
+              <option name="email" value="N/A" />
+              <option name="homepage" value="N/A" />
+              <option name="summary" value="N/A" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="bcrypt" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$USER_HOME$/tmp/ruby/3.3.0/gems/bcrypt-3.1.20" />
+          <option name="version" value="3.1.20" />
+        </properties>
+        <CLASSES>
+          <root url="file://$USER_HOME$/tmp/ruby/3.3.0/gems/bcrypt-3.1.20/ext" />
+          <root url="file://$USER_HOME$/tmp/ruby/3.3.0/gems/bcrypt-3.1.20/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/tmp/ruby/3.3.0/gems/bcrypt-3.1.20/ext" />
+          <root url="file://$USER_HOME$/tmp/ruby/3.3.0/gems/bcrypt-3.1.20/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/tmp/ruby/3.3.0/gems/bcrypt-3.1.20/ext" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="bcrypt_pbkdf (v1.1.1) [path][gem]" type="rubylib">
         <properties>
           <option name="additionalInfo">
