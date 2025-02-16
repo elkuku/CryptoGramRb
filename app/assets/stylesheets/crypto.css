@@ -1,0 +1,20 @@
+.letter:hover {
+    background-color: #4c943a;
+    cursor: pointer;
+}
+
+.letter-solved {
+    cursor: default;
+}
+
+.letter-selected {
+    background-color: #4c943a;
+}
+
+.letterContainer {
+    border-bottom: 1px solid grey;
+}
+
+.play-again-button {
+    font-size: 1.3em;
+}

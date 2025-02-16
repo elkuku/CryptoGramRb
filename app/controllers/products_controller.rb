@@ -1,10 +1,11 @@
 class ProductsController < ApplicationController
-
   allow_unauthenticated_access only: %i[ index show ]
   before_action :set_product, only: %i[ show edit update destroy ]
 
   def index
     @products = Product.all
+    @lang = "de"
+    @random_phrase = helpers.random_phrase(@lang)
   end
 
   def show
@@ -46,6 +47,6 @@ class ProductsController < ApplicationController
   end
 
   def product_params
-    params.expect(product: [:name, :description, :featured_image])
+    params.expect(product: [ :name, :description, :featured_image, :inventory_count ])
   end
 end
